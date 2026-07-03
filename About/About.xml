@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Gerrymon's RJW Retexture</name>
+	<packageId>Gerrymon.RJWRetextures</packageId>
+	<author>Gerrymon</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>rim.job.world</li>
+		<li>Euclidean.s16.core</li>
+		<li>readyforjeff.RJWPeculiarInstitution</li>
+		<li>castle.petification</li>
+	</loadAfter>
+	<description>A collection of vanilla-fied textures of RJW and a few of its submods. Mainly for apparels.</description>
+</ModMetaData>
