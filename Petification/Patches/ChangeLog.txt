@@ -1,0 +1,26 @@
+Change Log
+
+NEW GRAPHIC
+- Add proper item textures for most apparels
+- Add proper textures for pony mane and bridle
+
+WORDING FIX
+- "Cat Ears", "Cute Ears", "Stupid Ears" thoughts -> "wearing cat ears" (uniformed and decapitalized)
+- "Dog Mask", "Dog Mask", "Stupid Mask" thoughts -> "wearing dog mask" (uniformed and decapitalized)
+- "Choking Mask", "Feeding Mask", "Choking Mask" thoughts -> "wearing doll mask" (uniformed and decapitalized)
+- "Dumb Ears", "Cow Ears", "Not a Cow" thoughts -> "wearing cow ears" (uniformed and decapitalized)
+- "Pony Mane", "Beautiful Mane", "Ridiculous Mane" thoughts -> "wearing cow ears" (uniformed and decapitalized)
+- Apparel "cat ears" -> "cat ear headband"
+- Apparel "cat collar" -> "kitty training collar"
+- Apparel "dog mask F" -> "dog ear headband"
+- Apparel "dog collar" -> "puppy training collar"
+- Apparel "cow ears" => "cow ear headband"
+- Apparel "pony mane" -> "pony headband"
+
+RESEARCHES AND TECHS LEVEL
+- Cow collar, cow ears, pony collar, and doll collar: Industrial -> Medieval
+- Change "machining" prerequisite from "dog mask", "dog mask F", and "doll mask" to "complex clothing"
+
+RECIPES
+- Apparel "dog mask" and "dog mask F": 25 chemfuels -> 40 leathers
+- Apparel "doll mask": 30 chemfuels -> 45 leathers

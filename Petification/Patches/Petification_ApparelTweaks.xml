@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_PuppyCollar"]/label</xpath>
+			<value>
+				<label>puppy training collar</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_PuppyCollar"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Dog/DogCollars/DogCollar</texPath>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_kittyCollar"]/label</xpath>
+			<value>
+				<label>kitty training collar</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_kittyCollar"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Cat/CatCollars/CatCollar</texPath>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_cowCollar"]/label</xpath>
+			<value>
+				<label>cow training collar</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_cowCollar"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Cow/CowCollar/CowCollar</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_cowCollar"]/techLevel</xpath>
+			<value>
+				<techLevel>Medieval</techLevel>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_dollcollar"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Doll/DollCollar/DollCollar</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_dollcollar"]/techLevel</xpath>
+			<value>
+				<techLevel>Medieval</techLevel>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_ponycollar"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Pony/PonyBridle/PonyBridle</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_ponycollar"]/apparel/wornGraphicPath</xpath>
+			<value>
+				<wornGraphicPath>Apparel/Pony/PonyBridle/PonyBridle</wornGraphicPath>
+			</value>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Apparel_ponycollar"]/apparel</xpath>
+			<value>
+				<drawData>
+					<dataSouth><layer>69</layer></dataSouth>
+					<dataWest><layer>69</layer></dataWest>
+					<dataEast><layer>69</layer></dataEast>
+					<dataNorth><layer>69</layer></dataNorth>
+				</drawData>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_ponycollar"]/techLevel</xpath>
+			<value>
+				<techLevel>Medieval</techLevel>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_katears"]/label</xpath>
+			<value>
+				<label>cat ear headband</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_katears"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Cat/CatEars/CatEarHat</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="kittenears"]/label</xpath>
+			<value>
+				<label>cat ear headband</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="kittenearsThought"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing cat ears</label>
+					<description>This is humiliating.</description>
+					<baseMoodEffect>-1</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="kittenearsThoughtHorny"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing cat ears</label>
+					<description>I look so cute in these!</description>
+					<baseMoodEffect>2</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="kittenearsThoughtDom"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing cat ears</label>
+					<description>I don't want to wear this stupid thing!</description>
+					<baseMoodEffect>-4</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMask"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Dog/DogMask/DogMask</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMask"]/description</xpath>
+			<value>
+				<description>A flexible leather mask designed to transform the wearer into a canine appearance. The mask reinforces puppy training and pet identity through humiliation and objectification.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMask"]/recipeMaker/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>PRPuppy</li>
+					<li>ComplexClothing</li>
+				</researchPrerequisites>
+			</value>
+		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMask"]/recipeMaker/recipeUsers</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMask"]/costList</xpath>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMask"]</xpath>
+			<value>
+				<costStuffCount>40</costStuffCount>
+				<stuffCategories>
+					<li>Leathery</li>
+				</stuffCategories>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Dog/DogMaskF/DogMaskF</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]/label</xpath>
+			<value>
+				<label>dog ear headband</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]/description</xpath>
+			<value>
+				<description>A flexible leather mask designed to transform the wearer into a canine appearance. The mask reinforces puppy training and pet identity through humiliation and objectification. The headband appearance is just visual, it function exactly as the dog mask.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]/recipeMaker/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>PRPuppy</li>
+					<li>ComplexClothing</li>
+				</researchPrerequisites>
+			</value>
+		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]/recipeMaker/recipeUsers</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]/costList</xpath>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Apparel_DogMaskF"]</xpath>
+			<value>
+				<costStuffCount>40</costStuffCount>
+				<stuffCategories>
+					<li>Leathery</li>
+				</stuffCategories>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="doggymasked"]/label</xpath>
+			<value>
+				<label>dog mask</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="doggymaskedThought"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing dog mask</label>
+					<description>This is humiliating.</description>
+					<baseMoodEffect>-3</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="doggymaskedThoughtHorny"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing dog mask</label>
+					<description>Do I look good master?</description>
+					<baseMoodEffect>5</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="doggymaskedThoughtDom"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing dog mask</label>
+					<description>I don't want to wear this stupid thing!</description>
+					<baseMoodEffect>-10</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DollMask"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Doll/DollMask/DollMask</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DollMask"]/description</xpath>
+			<value>
+				<description>A restrictive, full head leather mask with a feeding tube shoved into the wearer's throat. Designed to reinforce 'doll' training and objectify the wearer, forcing them to eat and breathe through the tube like a doll.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DollMask"]/techLevel</xpath>
+			<value>
+				<techLevel>Medieval</techLevel>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_DollMask"]/recipeMaker/researchPrerequisites</xpath>
+			<value>
+				<researchPrerequisites>
+					<li>PRDoll</li>
+					<li>ComplexClothing</li>
+				</researchPrerequisites>
+			</value>
+		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Apparel_DollMask"]/recipeMaker/recipeUsers</xpath>
+		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="Apparel_DollMask"]/costList</xpath>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Apparel_DollMask"]</xpath>
+			<value>
+				<costStuffCount>45</costStuffCount>
+				<stuffCategories>
+					<li>Leathery</li>
+				</stuffCategories>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="dollymasked"]/label</xpath>
+			<value>
+				<label>doll mask</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="dollymasked"]/description</xpath>
+			<value>
+				<description>Full head covering limits the hearing and sight, with feeding tube further removes the doll from their selfhood. May eventually cause a permanent shift in personality.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="dollymaskedThought"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing doll mask</label>
+					<description>This thing is choking me!</description>
+					<baseMoodEffect>-10</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="dollymaskedThoughtHorny"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing doll mask</label>
+					<description>Everything I want to eat has to be forced down my throat. It shouldn't be so hot and yet it is.</description>
+					<baseMoodEffect>7</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="dollymaskedThoughtDom"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing doll mask</label>
+					<description>I don't want to wear this stupid thing!</description>
+					<baseMoodEffect>-20</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_cowears"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Cow/CowEars/CowEars</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_cowears"]/label</xpath>
+			<value>
+				<label>cow ear headband</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_cowears"]/techLevel</xpath>
+			<value>
+				<techLevel>Medieval</techLevel>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="cowears"]/label</xpath>
+			<value>
+				<label>cow ear headband</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="cowearsThought"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing cow ears</label>
+					<description>This is humiliating.</description>
+					<baseMoodEffect>-4</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="cowearsThoughtHorny"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing cow ears</label>
+					<description>I'm one of the cattle!</description>
+					<baseMoodEffect>3</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="cowearsThoughtDom"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing cow ears</label>
+					<description>I don't want to wear this stupid thing!</description>
+					<baseMoodEffect>-12</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_ponyears"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Apparel/Pony/PonyEars/PonyHat</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_ponyears"]/apparel/wornGraphicPath</xpath>
+			<value>
+				<wornGraphicPath>Apparel/Pony/PonyEars/PonyHat</wornGraphicPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_ponyears"]/label</xpath>
+			<value>
+				<label>pony headband</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparel_ponyears"]/techLevel</xpath>
+			<value>
+				<techLevel>Medieval</techLevel>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/HediffDef[defName="ponyears"]/label</xpath>
+			<value>
+				<label>pony headband</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="ponyearsThought"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing pony ears</label>
+					<description>This is humiliating.</description>
+					<baseMoodEffect>-2</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="ponyearsThoughtHorny"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing pony ears</label>
+					<description>I look like a prize pony! Master will be so proud!</description>
+					<baseMoodEffect>3</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="ponyearsThoughtDom"]/stages/li</xpath>
+			<value>
+				<li>
+					<label>wearing pony ears</label>
+					<description>I don't want to wear this stupid thing!</description>
+					<baseMoodEffect>-6</baseMoodEffect>
+				</li>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+
+</Patch>
