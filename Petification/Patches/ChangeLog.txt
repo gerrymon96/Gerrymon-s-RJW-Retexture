@@ -18,7 +18,10 @@ WORDING FIX
 - Apparel "pony mane" -> "pony headband"
 
 RESEARCHES AND TECHS LEVEL
-- Cow collar, cow ears, pony collar, and doll collar: Industrial -> Medieval
+- Apparel cow collar, cow ears, pony collar, and doll collar: Industrial -> Medieval
+- All BDSM weapons: Industrial -> Medieval
+- Research for cow, doll, and pony training: Industrial -> Medieval
+- Food "pony oats": Industrial -> Medieval
 - Change "machining" prerequisite from "dog mask", "dog mask F", and "doll mask" to "complex clothing"
 
 RECIPES

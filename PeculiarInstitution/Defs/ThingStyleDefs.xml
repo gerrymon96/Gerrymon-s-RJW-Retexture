@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--  Collar  -->
+
+  <ThingStyleDef>
+    <defName>GM_Christian_ConcubineCollar</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarChristian/SlaveCollarChristian</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarChristian/SlaveCollarChristian</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>GM_Totemic_ConcubineCollar</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarTotemic/SlaveCollarTotemic</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarTotemic/SlaveCollarTotemic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>GM_Rustic_ConcubineCollar</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarRustic/SlaveCollarRustic</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarRustic/SlaveCollarRustic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>GM_Techist_ConcubineCollar</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarTechist/SlaveCollarTechist</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarTechist/SlaveCollarTechist</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>GM_Animalist_ConcubineCollar</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarAnimalist/SlaveCollarAnimalist</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarAnimalist/SlaveCollarAnimalist</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>GM_Morbid_ConcubineCollar</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarMorbid/SlaveCollarMorbid</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarMorbid/SlaveCollarMorbid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>GM_Spikecore_ConcubineCollar</defName>
+    <wornGraphicPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarSpikecore/SlaveCollarSpikecore</wornGraphicPath>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/ApparelStyles/SlaveCollarSpikecore/SlaveCollarSpikecore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>

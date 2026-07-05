@@ -1,0 +1,3 @@
+Change Log
+
+- If you use Stylized Slave Collars, the concubine collars will also have the same styles as slave collars.

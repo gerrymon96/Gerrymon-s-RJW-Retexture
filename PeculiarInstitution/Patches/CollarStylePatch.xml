@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Christian"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "Christian"]/thingDefStyles</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<thingDef>Apparel_Concubine_Collar</thingDef>
+					<styleDef>GM_Christian_ConcubineCollar</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Rustic"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "Rustic"]/thingDefStyles</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<thingDef>Apparel_Concubine_Collar</thingDef>
+					<styleDef>GM_Rustic_ConcubineCollar</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Techist"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "Techist"]/thingDefStyles</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<thingDef>Apparel_Concubine_Collar</thingDef>
+					<styleDef>GM_Techist_ConcubineCollar</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Totemic"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "Totemic"]/thingDefStyles</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<thingDef>Apparel_Concubine_Collar</thingDef>
+					<styleDef>GM_Totemic_ConcubineCollar</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Animalist"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "Animalist"]/thingDefStyles</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<thingDef>Apparel_Concubine_Collar</thingDef>
+					<styleDef>GM_Animalist_ConcubineCollar</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Spikecore"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "Spikecore"]/thingDefStyles</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<thingDef>Apparel_Concubine_Collar</thingDef>
+					<styleDef>GM_Spikecore_ConcubineCollar</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Morbid"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "Morbid"]/thingDefStyles</xpath>
+			<value>
+				<li MayRequire="Ludeon.RimWorld.Ideology">
+					<thingDef>Apparel_Concubine_Collar</thingDef>
+					<styleDef>GM_Morbid_ConcubineCollar</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
