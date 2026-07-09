@@ -4,5 +4,6 @@
 		<li />
 		<li IfModActive="castle.petification">Petification</li>
 		<li IfModActive="readyforjeff.RJWPeculiarInstitution,Gerrymon.StylizedSlaveCollar">PeculiarInstitution</li>
+		<li IfModActive="ProbablyInert.RJWDynamics">Dynamics</li>
 	</v1.6>
 </loadFolders>

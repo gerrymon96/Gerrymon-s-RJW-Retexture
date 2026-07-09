@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/rjw.bondage_gear_def[defName="FlatChastityCage"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>RJWDynamics/Apparel/CockCage/CockCage</texPath>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/rjw.bondage_gear_def[defName="FlatChastityCage"]/label</xpath>
+			<value>
+				<label>cock cage</label>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/rjw.bondage_gear_def[defName="FlatChastityCage"]/apparel/renderNodeProperties</xpath>
+			<value>
+			  <renderNodeProperties>
+				<li Class="RJWDynamics.CagePartNodeProperties">
+					<debugLabel>FlatCage_Ring</debugLabel>
+					<cagePart>Ring</cagePart>
+					<maxSize>0</maxSize>
+					<nodeClass>RJWDynamics.PawnRenderNode_CagePart</nodeClass>
+					<workerClass>RJWDynamics.PawnRenderNodeWorker_CagePart</workerClass>
+					<texPath>RJWDynamics/Apparel/CockCage</texPath>
+					<parentTagDef>Body</parentTagDef>
+					<drawData>
+						<defaultData>
+							<layer>0.3</layer>
+							<offset>(0, 0, -0.30)</offset>
+						</defaultData>
+						<dataSouth>
+							<layer>0.3</layer>
+							<offset>(0, 0, -0.30)</offset>
+						</dataSouth>
+					</drawData>
+				</li>
+				<li Class="RJWDynamics.CagePartNodeProperties">
+					<debugLabel>FlatCage_Cage</debugLabel>
+					<cagePart>Cage</cagePart>
+					<maxSize>0</maxSize>
+					<nodeClass>RJWDynamics.PawnRenderNode_CagePart</nodeClass>
+					<workerClass>RJWDynamics.PawnRenderNodeWorker_CagePart</workerClass>
+					<texPath>RJWDynamics/Apparel/CockCage</texPath>
+					<parentTagDef>Body</parentTagDef>
+					<drawData>
+						<defaultData>
+							<layer>6</layer>
+							<offset>(0, 0, -0.30)</offset>
+						</defaultData>
+						<dataSouth>
+							<layer>6</layer>
+							<offset>(0, 0, -0.30)</offset>
+						</dataSouth>
+						<dataNorth>
+							<offset>(0, 0, -0.32)</offset>
+						</dataNorth>
+						<dataEast>
+							<layer>10</layer>
+							<offset>(0.06, 0, -0.26)</offset>
+						</dataEast>
+						<dataWest>
+							<layer>10</layer>
+							<offset>(-0.06, 0, -0.26)</offset>
+						</dataWest>
+					</drawData>
+				</li>
+			  </renderNodeProperties>
+			</value>
+		</li>
+	  </operations>
+	</Operation>
+
+
+</Patch>

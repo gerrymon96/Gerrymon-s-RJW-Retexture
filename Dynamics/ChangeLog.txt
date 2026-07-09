@@ -1,0 +1,3 @@
+Change Log
+
+- Change flat cage into regular cock cage so it's different from sadist cage, but the patches doesn't work yet for some reason.

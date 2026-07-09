@@ -11,11 +11,13 @@
 		<li>Euclidean.s16.core</li>
 		<li>readyforjeff.RJWPeculiarInstitution</li>
 		<li>castle.petification</li>
+		<li>ProbablyInert.RJWDynamics</li>
 	</loadAfter>
 	<description>A collection of vanilla-fied textures of RJW and a few of its submods. Quick summary:
 -- Basic RJW: New textures for items and prisoner chain
 -- S16's Extention: New textures for most bondage gears, piercings, and vibrators
 -- Peculiar Institution: Compatibility with Stylized Slave Collars
 -- Petification: Complete retexture and making the gears more medieval-friendly
+-- Dynamics: New textures for the apparels
 </description>
 </ModMetaData>
