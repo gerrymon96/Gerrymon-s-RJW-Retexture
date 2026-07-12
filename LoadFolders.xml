@@ -2,8 +2,11 @@
 <loadFolders>
 	<v1.6>
 		<li />
-		<li IfModActive="castle.petification">Petification</li>
-		<li IfModActive="readyforjeff.RJWPeculiarInstitution,Gerrymon.StylizedSlaveCollar">PeculiarInstitution</li>
 		<li IfModActive="ProbablyInert.RJWDynamics">Dynamics</li>
+		<li IfModActive="Doop.HumanCattle,akaster.equalmilking">HumanCattle</li>
+		<li IfModActiveAll="readyforjeff.RJWPeculiarInstitution,Gerrymon.StylizedSlaveCollar">PeculiarInstitution</li>
+		<li IfModActive="castle.petification">Petification</li>
+		<li IfModActive="rimworld.ekss.rjwex">RJW_Extension</li>
+		<li IfModActive="Euclidean.s16.core">S16_Extension</li>
 	</v1.6>
 </loadFolders>
